@@ -1,0 +1,35 @@
+{
+  "name": "adonis-papaparse-provider",
+  "version": "1.0.0-alpha.0",
+  "description": "A `AdonisJS` service Provider which wraps `Papa Parse`, a powerful CSV parser .",
+  "main": "index.js",
+  "scripts": {
+    "test": "node japaFile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenTengTu/adonis-papaparse-provider.git"
+  },
+  "keywords": [
+    "adonis",
+    "provider",
+    "papaparse",
+    "csv",
+    "parser"
+  ],
+  "author": "ShenTengTu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShenTengTu/adonis-papaparse-provider/issues"
+  },
+  "homepage": "https://github.com/ShenTengTu/adonis-papaparse-provider#readme",
+  "dependencies": {
+    "papaparse": "^5.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/sink": "^1.0.17",
+    "japa": "^2.0.7",
+    "japa-cli": "^1.0.1"
+  }
+}
