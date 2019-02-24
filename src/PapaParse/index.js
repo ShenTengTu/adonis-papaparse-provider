@@ -10,8 +10,6 @@ const defaultConfig = require('../../config/papaParse')
 /** @typedef {import('papaparse').ParseConfig} ParseConfig */
 
 class PapaParse {
-  static get NODE_STREAM_INPUT () { return Papa.NODE_STREAM_INPUT }
-  
   constructor (Config) {
     this.config = Config.merge('papaParse', defaultConfig, (obj, src, key) => {})
   }
@@ -35,6 +33,8 @@ class PapaParse {
     const _config = Object.assign({}, this.config.unparse, config)
     return Papa.unparse(obj, _config)
   }
+
+  get NODE_STREAM_INPUT () { return Papa.NODE_STREAM_INPUT }
 }
 
 module.exports = PapaParse

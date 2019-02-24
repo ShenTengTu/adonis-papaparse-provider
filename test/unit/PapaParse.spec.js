@@ -85,7 +85,7 @@ test.group('class PapaParse', (group) => {
     const csv = path.resolve(__dirname, '../test.csv')
     const stream = fs.createReadStream(csv, 'utf8')
     const papa = new PapaParse(this.config)
-    const csvStream = stream.pipe(papa.parse(PapaParse.NODE_STREAM_INPUT))
+    const csvStream = stream.pipe(papa.parse(papa.NODE_STREAM_INPUT))
 
     let result = await new Promise ((resolve, reject) => {
       const data = []
