@@ -13,7 +13,7 @@ class PapaParseProvider extends ServiceProvider {
   register () {
     this.app.singleton('Papa', () => {
       const Config = this.app.use('Adonis/Src/Config')
-      return new return new (require('../src/PapaParse'))(Config)
+      return new (require('../src/PapaParse'))(Config)
     })
   }
 
