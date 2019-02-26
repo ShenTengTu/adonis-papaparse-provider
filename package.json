@@ -1,0 +1,54 @@
+{
+  "name": "adonis-papaparse-provider",
+  "version": "1.0.0-beta.0",
+  "description": "A `AdonisJS` service Provider which wraps `Papa Parse`, a powerful CSV parser .",
+  "main": "index.js",
+  "files": [
+    "config",
+    "providers",
+    "src",
+    "instructions.js",
+    "instructions.md"
+  ],
+  "scripts": {
+    "test": "node japaFile.js",
+    "commit": "git cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenTengTu/adonis-papaparse-provider.git"
+  },
+  "keywords": [
+    "adonis",
+    "provider",
+    "papaparse",
+    "csv",
+    "parser"
+  ],
+  "author": "ShenTengTu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShenTengTu/adonis-papaparse-provider/issues"
+  },
+  "homepage": "https://github.com/ShenTengTu/adonis-papaparse-provider#readme",
+  "dependencies": {
+    "papaparse": "^5.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@adonisjs/ace": "^5.0.8",
+    "@adonisjs/bodyparser": "^2.0.9",
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/sink": "^1.0.17",
+    "@adonisjs/validator": "^5.0.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "japa": "^2.0.7",
+    "japa-cli": "^1.0.1",
+    "macroable": "^2.0.1",
+    "supertest": "^3.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
