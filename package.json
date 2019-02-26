@@ -1,8 +1,15 @@
 {
   "name": "adonis-papaparse-provider",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-beta.0",
   "description": "A `AdonisJS` service Provider which wraps `Papa Parse`, a powerful CSV parser .",
   "main": "index.js",
+  "files": [
+    "config",
+    "providers",
+    "src",
+    "instructions.js",
+    "instructions.md"
+  ],
   "scripts": {
     "test": "node japaFile.js",
     "commit": "git cz"
